@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #606C38;
+    color: #FEFAE0; /* Warm off-white for high contrast */
+    line-height: 1.6;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 5%;
+    background-color: rgba(40, 54, 24, 0.4); /* Subtle darker olive tint */
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+}
+
+.sparkforce-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links-container a {
+    color: #FEFAE0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.nav-links-container a:hover {
+    opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 85vh;
+    padding: 2rem;
+}
+
+.hero .logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #DDA15E; /* Earthy gold accent */
+    margin-bottom: 2.5rem;
+}
+
+/* Buttons */
+.link-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.link-container a {
+    padding: 0.85rem 1.75rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.about-btn {
+    border: 2px solid #FEFAE0;
+    color: #FEFAE0;
+}
+
+.get-started-button {
+    background-color: #DDA15E;
+    color: #283618;
+}
+
+.link-container a:hover {
+    transform: translateY(-2px);
+}
+.intro-para{
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
